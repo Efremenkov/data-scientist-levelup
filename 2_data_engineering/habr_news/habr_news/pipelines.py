@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class HarbNewsPipeline:
+class HabrNewsPipeline:
     def process_item(self, item, spider):
         return item

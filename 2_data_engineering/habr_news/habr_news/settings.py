@@ -1,4 +1,4 @@
-# Scrapy settings for harb_news project
+# Scrapy settings for habr_news project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,15 +7,15 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'harb_news'
+BOT_NAME = 'habr_news'
 
-SPIDER_MODULES = ['harb_news.spiders']
-NEWSPIDER_MODULE = 'harb_news.spiders'
+SPIDER_MODULES = ['habr_news.spiders']
+NEWSPIDER_MODULE = 'habr_news.spiders'
 
 FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'harb_news (+http://www.yourdomain.com)'
+#USER_AGENT = 'habr_news (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -46,13 +46,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'harb_news.middlewares.HarbNewsSpiderMiddleware': 543,
+#    'habr_news.middlewares.HabrNewsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'harb_news.middlewares.HarbNewsDownloaderMiddleware': 543,
+#    'habr_news.middlewares.HabrNewsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,7 +64,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'harb_news.pipelines.HarbNewsPipeline': 300,
+#    'habr_news.pipelines.HabrNewsPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

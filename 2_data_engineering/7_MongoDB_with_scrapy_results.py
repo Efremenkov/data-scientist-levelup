@@ -69,8 +69,8 @@ update_many_result = db.news_collection.update_many({'hubs': {'$all': ['Астр
 print(f"updated {update_many_result.matched_count} documents")
 
 # получить количество документов из коллекции, в которых 'author' = 'MONGO'
-MONGO_author_news_count = db.news_collection.count_documents({'author': 'MONGO'})
-print(f"MONGO is author of {MONGO_author_news_count} documents")
+mongo_author_news_count = db.news_collection.count_documents({'author': 'MONGO'})
+print(f"MONGO is author of {mongo_author_news_count} documents")
 
 # ------Удаление--------------------------------------------------------------------------------------------------------
 
